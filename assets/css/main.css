@@ -1,0 +1,152 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.add-button {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+
+    font-size: 23px;
+    background: #00449e;
+    color: white;
+    border: unset;
+    border-radius: 50%;
+}
+
+.add-form,
+.hidden-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+}
+.add-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.add-form label span {
+    font-size: 15px;
+}
+.add-form label span i {
+    color: red;
+    margin-left: 2px;
+}
+
+.add-form input,
+.add-form select,
+.add-form button {
+    max-width: 400px;
+}
+
+.add-form button {
+    margin-top: 28px;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    background: #00449e;
+    color: white;
+}
+
+.check-items__block {
+    margin-top: 60px;
+}
+.check-items__title {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.check-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.check-item {
+    display: flex;
+    background: gray;
+    padding: 15px 14px;
+    border-radius: 17px;
+    flex-direction: row;
+    gap: 9px;
+    justify-content: space-between;
+}
+
+.check-items .check-item:nth-child(2n + 1) {
+    background: lightgrey;
+}
+
+.check-items.xlsx .check-item {
+    background: lightgrey;
+}
+.check-items .check-item.active {
+    background: green;
+    color: white;
+}
+
+.check-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.check-type {
+    font-weight: 600;
+}
+
+.lk-link {
+    position: fixed;
+    right: 120px;
+    top: 21px;
+    text-decoration: none;
+    color: white;
+    background: #00449e;
+    padding: 8px 14px;
+    border-radius: 16px;
+}
+
+.check-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+.check-filter-tabs {
+    display: flex;
+    gap: 14px;
+}
+
+.check-filter-tabs a {
+    text-decoration: none;
+    color: black;
+    background: lightgray;
+    padding: 8px 14px;
+    border-radius: 16px;
+}
+
+.check-filter-tabs a.active {
+    background: #00449e;
+    color: white;
+}
+
+.type-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 208px;
+}
+
+.type-buttons button {
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    background: #00449e;
+    color: white;
+}
